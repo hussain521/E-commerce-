@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D E T A I L S</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- icon -->
+    <link rel="icon" href="image/logo-icon .png">
+        <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="position-relative">
+<a href="#top" class=" text-center  move"><i class= "  fa-solid fa-arrow-up text-black-50 pt-2  "></i>
+</a>
+<header>
+    <div class="header-top  text-black-50  w-100 px-md-5 px-2 d-flex justify-content-between border-1 border-bottom py-2">
+        <p class="mb-0">
+            <span>Free Express Delivery - OFF 50%! </span>
+            <sapn class="social ms-2">
+                <i class="pe-1 fa-brands fa-facebook-f"></i>
+                <i class="pe-1 fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </sapn>
+        </p>
+    <div>
+        <select class="border-0 text-black-50" name="" id="">
+            <option value="USD"> USD $</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <select  class="border-0 text-black-50"  name="" id="">
+            <option value="En">En</option>
+            <option value="Ar">Ar</option>
+        </select>
+    </div>
+    </div>
+    <div class="header-center mt-md-0 mt-2 py-2 container d-flex justify-content-between align-items-center ">
+        <img src="image/logo.png" class="logo"  alt="">
+        <div class="search position-relative border border-1 ms-2 ms-md-0 px-3   py-md-1 rounded-pill d-flex justify-content-between align-items-center">
+            <img src="image/location.png" class=" me-1 me-md-2" style="width: 12px;" alt="">
+            <select name="" class="border-0 bg-white text-black-50" id="">
+                <option value="">ALL</option>
+            </select>
+            <input type="search" class="border-0 p-md-2 px-1 py-2  rounded-pill" placeholder="Search ">
+             <i class="fa-solid fa-search"></i> 
+        </div>
+        <div class="d-flex user">
+            <button  class="push text-black-50 position-relative  "><i class='me-md-3  fs-5 bx bx-cart'></i><span class=" position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning" style="font-size: 10px;" id="quantity">0</span></button>
+            <div class="sidebar text-white p-3  position-absolute  end-0">
+            <i class="fa fa-solid fa-x exit"></i>
+            <div id="cartItem" class="text-capitalize mt-3 ">your cart</div>       
+            <div class="foot d-flex justify-content-between align-items-center border-top border-1 pt-3 ">
+                <h5 class="text-capitalize text-warning ">total</h5>
+                <p id="total" class="text-warning">$ 0.00</p>
+    </div>
+            </div>
+            
+            <a href="" class="text-black-50"><i class='mx-md-3 px-1 fs-6 bx bx-bell'></i></a>
+            <a href="login.html" target="_blank" class="text-black-50"><i class='mx-md-3 fs-6 bx bx-user'></i></a>
+        </div>
+    </div>
+    <div class="header-bootom container pt-2  ">
+        <nav class="navbar navbar-expand-lg pt-0">
+            <ul class="nav m-auto py-md-2 d-flex align-items-center ">
+                <li class="pe-md-3 pe-1 ">
+                    <div class="d-flex align-items-center">
+                        <i class='bx bx-home text-black-50 active' ></i>
+                        <a href="index.html" target="_self" class="active text-uppercase text-dark">home</a>
+                    </div>
+                </li>
+                <li class="px-md-3 px-1"><a href="index.html" class="text-dark text-uppercase ">Products</a></li>
+                <li class="px-md-3 px-1"><a href="index.html" class="text-dark text-uppercase ">Blog</a></li>
+                <li class="px-md-3 px-1"><a href="404.html" target="_self" class="text-dark text-capitalize">404</a></li>
+                <li class="ps-md-3 px-1"><a href="contact.html" target="_self" class="text-dark text-uppercase ">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="container w-75 py-5 detiels">
+    <div class="row">
+        <div class="col-md-5 mb-4">
+            <img src="image/16 (6).jpeg" class="w-100 product" alt="">
+                        <ul class="d-md -block p-0 d-flex  ">
+                <li class="mx-md-3 py-2 mb-md-2">
+                    <img src="image/16 (2).jpeg" alt="" class="w-100"
+                    onclick='imgSlider("image/16 (2).jpeg");''>
+                </li>
+                <li class="mx-md-3 py-2 mb-md-2">
+                    <img src="image/16 (3).jpeg" alt="" class="w-100"
+                    onclick='imgSlider("image/16 (3).jpeg");''>
+                </li>
+                <li class="mx-md-3 py-2 mb-md-2">
+                    <img src="image/16 (4).jpeg" alt="" class="w-100"
+                    onclick='imgSlider("image/16 (4).jpeg");''>
+                </li>
+                <li class="mx-md-3 py-2 mb-md-2">
+                    <img src="image/16 (5).jpeg" alt="" class="w-100"
+                    onclick='imgSlider("image/16 (5).jpeg");''>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6 ps-1 bg-inf o">
+            <h2>Apple iPhone 16 Plus "6,7" 256 GB</h2>
+            <p class="info-product text-black-50">Get great business deals on Apple iPhone 16 devices. Stay productive with Apple technology and discover the benefits of T-Mobile's 5G network for business. Find the best deals on devices like Apple & Samsung and everything you need to take your business to the next level on the T-Mobile for Business Deals hub.</p>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <span class="text-black-50 ms-1">(6.5 customer review)</span>
+            </div>
+            <p class="price mt-4 fs-5 fw-bold">75.999 <span class="">LE</span></p>
+            <hr>
+            <form action="" class="d-inline  me-2">
+                <input type="number" placeholder="000" name="" class="py-1 pb-2 px-2  border-1 rounded-1" style="width: 10%; outline: none;">
+            </form>
+            <a href="" class="btn btn-dark px-5">Add To Cart <i class=" ps-2 fa-solid fa-cart-shopping"></i> </a>
+            <div class="d-flex justify-content-start align-items-center   mt-4 ">
+                <p class=""><i class="fa-regular fa-heart me-1"></i> Browse wishlist</p>
+                <p class="ms-md-5 ms-4"><i class="fa-solid fa-share me-2"></i>Add to compare</p>
+            </div>
+            <hr>
+            <h6 class="text-capitalize ">categaries:<span class="text-black-50 ps-1"> iphone , labtop & Desktop</span></h6>
+            <h6 class="text-capitalize my-3">tag:<span class="text-black-50 ps-1"> white</span></h6>
+            <h6 class="text-capitalize text-black-50">share this product: 
+                <sapn class="social">
+                <i class="pe-md-2 px-1 fa-brands fa-facebook-f"></i>
+                <i class="px-md-2 px-1 fa-brands fa-twitter"></i>
+                <i class="px-md-2 px-1 fa-brands fa-instagram"></i>
+                <i class="px-md-2 px-1 fa-brands fa-linkedin-in"></i>
+                <i class="px-md-2 px-1 fa-brands fa-google"></i>
+                <i class="px-md-2 px-1 fa-brands fa-youtube"></i>
+            </sapn>
+            </h6>
+        </div>
+    </div>
+</section>
+<section class="container p-5 rounded-3" style="background-color: rgba(243, 243, 243, 0.479);">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+                <div class="card">
+                <img src="image/ip8.jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE 15 PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/ip5.jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE 15 PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/ip6.jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE 15 PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/ip3.jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE 15 PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/ip8.jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE 15 PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+</div>
+    </div>
+    <div class="carousel-item">
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+                <div class="card">
+                <img src="image/w (1).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">SMART WATCH PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/w (2).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE WATCH PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/w (3).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE WATCH </h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/w (4).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">SMART WATCH PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/w (5).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">ULTRA 800</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+</div>
+    </div>
+    <div class="carousel-item">
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+                <div class="card">
+                <img src="image/lab (1).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">MACBOOK PRO</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/lab (2).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">APPLE PRO 2021</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/lab (3).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">MACKBOOK 2025 </h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/lab (4).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">MACBOOK AIR 2023</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+              <div class="col">
+                <div class="card">
+                <img src="image/lab (5).jpeg" class="card-img-top w-75 m-auto" alt="...">
+                <div class="card-body">
+                <h6 class="card-title ">MAC 16 2021</h6>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                <p style="font-size: 14px;" class='m-0'>$1200.00</p>
+                <div class="star"  style="font-size: 10px; color: var(--main-color) ;">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+                <button  class=' bttn rounded-3 text-black-50 border border-1 py-2 text-capitalize w-75' >add to cart <i class='bx bx-cart  ms-2'></i> </button>
+                <i class='fa-solid fa-heart text-black-50 border-1 border py-2 pb-2 px-2 ms-2' style="font-size: 12px;"></i> 
+                </div>
+                </div>
+                </div>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!-- footer -->
+<footer class="container pt-md-5">
+<div class="row border-bottom py-md-5 py-3 ">
+    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <img src="image/logo.png" style="width: 100px;" alt="" class="logo">
+        <p class="text-black-50 text-capitalize" style="font-size: 12px;">Get 10% off your first order</p>
+        <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error, ea illum consequatur adipisci enim commodi.</p>
+        <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error, ea illum consequatur adipisci enim commodi.</p>
+        <div class="social">
+                <i class="text-black-50 pe-2 fa-brands fa-facebook-f"></i>
+                <i class="text-black-50 pe-2 fa-brands fa-paypal"></i>
+                <i class="text-black-50 pe-2 fa-brands fa-twitter"></i>
+                <i class="text-black-50 pe-2 fa-brands fa-youtube"></i>
+                <i class="text-black-50      fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    <div class="col-md-2  text-center text-md-start">
+        <h4 class="text-capitalize mb-md-5 mb-3 ">Support</h4>
+        <p class="text-capitalize text-black-50">111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</p>
+        <p class="text-capitalize text-black-50">hussainelsid990@gmail.com</p>
+        <p class="text-capitalize text-black-50">+010-172-850-81</p>
+    </div>
+    <div class="col-md-2  text-center text-md-start  mb-md-0 mb-4 ">
+        <h4 class="mb-4">Account</h4>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark " href="#"> <i class="text-black-50 pe-1 fa-solid fa-arrow-right"></i> my account </a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark " href="#"> <i class="text-black-50 pe-1 fa-solid fa-arrow-right"></i> my wishlist </a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark " href="#"> <i class="text-black-50 pe-1 fa-solid fa-arrow-right"></i> my account </a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark " href="#"> <i class="text-black-50 pe-1 fa-solid fa-arrow-right"></i> my favorite </a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark " href="#"> <i class="text-black-50 pe-1 fa-solid fa-arrow-right"></i> my project </a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark " href="#"> <i class="text-black-50 pe-1 fa-solid fa-arrow-right"></i> terms of user </a></li>
+    </div>
+    <div class="col-md-2  text-center text-md-start mb-md-0 mb-4">
+        <h4 class="mb-4">Quick Link</h4>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark  " href="#"> <i class="text-black-50 pe-1 fa-brands fa-facebook-f"></i>facebook</a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark  " href="#"> <i class="text-black-50 pe-1 fa-brands fa-twitter"></i>twitter</a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark  " href="#"> <i class="text-black-50 pe-1 fa-brands fa-instagram"></i>instagram</a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark  " href="#"> <i class="text-black-50 pe-1 fa-brands fa-linkedin"></i>linkedin</a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark  " href="#"> <i class="text-black-50 pe-1 fa-brands fa-paypal"></i>paypal</a></li>
+        <li class="mb-3"><a class="text-decoration-none text-capitalize text-dark  " href="#"> <i class="text-black-50 pe-1 fa-brands fa-google-play"></i>google-play</a></li>    </div>
+    <div class="col-md-2 mb-md-0 mb-3 text-center ">
+    <h4 class="mb-0">Download App</h4>
+    <p class="text-black-50" style="font-size: 14px;">Save $3 with App New User Only</p>
+    <div class="mb-3">
+        <img src="image/Premium Vector _ Qr code sample vector abstract icon isolated on white background Vector illustration.jpeg" class="w-50" alt=""><img src="image/app (2).jpeg" class="w-50" alt="">
+    </div>
+    <form action="">
+        <div class="border py-2 rounded-3 position-relative ">
+            <input type="email" name="" class="border-0 w-100 px-4 text-capitalize text-black-50 " placeholder="send your E-mail" id="">
+            <i class='bx bx-send text-black-50'></i>
+        </div>
+    </form>
+    </div>
+</div>
+<div class="text-center pt-3 pb-1">
+            <p class="">Copyright &copy; 2025 <a href="" class="text-decoration-none  mx-2">HS-Hussain Al-Sid</a> Rights Reserved </p>
+</div>
+</footer>
+<!-- footer -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
